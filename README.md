@@ -39,6 +39,6 @@ Selene Waide
 
 ## 4. Acknowledgments
 
-* Udacity Full Stack Nanodegree for great tutorials on resoponsive web design.
+* Udacity Full Stack Nanodegree for great tutorials on responsive web design.
 * Bootstrap and FontAwesome for use of their CDNs.
 
