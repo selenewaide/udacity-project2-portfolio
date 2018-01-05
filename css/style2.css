@@ -1,0 +1,53 @@
+/* --------- nav --------- */
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-left: 2rem;
+}
+/* --------- end: nav --------- */
+
+/* --------- hero --------- */
+.hero {
+    background:
+    linear-gradient(to bottom right, rgba(0,196,180,0.2), rgba(0,170,223,0.2)),
+    url(../images/dublin.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+h1 {
+    font-size: 8rem;
+}
+
+.secondary-title {
+    font-size: 5rem;
+}
+/* --------- end: hero --------- */
+
+/* --------- gallery --------- */
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: calc(50% - 2rem);
+}
+/* --------- end: gallery --------- */
+
+/* --------- about --------- */
+.about-columns-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+}
+
+.about-column {
+    flex: 1;
+}
+
+.about-column-contents {
+    margin: 4rem 4rem;
+}
+/* --------- end: about --------- */

@@ -1,0 +1,209 @@
+/* --------- entire page --------- */
+body {
+    box-sizing: border-box;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+    padding-top: 70px;
+}
+
+.section-title {
+    margin: 0 0 20px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+/*partial underline for section headings*/
+.section-title::after{
+    border-bottom: 2px solid rgb(255,64,101);
+    bottom: -5px;
+    content: "";
+    left: 48%;
+    position:absolute;
+    width: 3%;
+}
+/* --------- end: entire page --------- */
+
+/* --------- logo and nav --------- */
+nav {
+    margin: auto;
+    max-width: 1200px;
+    order: 1;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    background-color: rgb(255,64,101);
+}
+
+.nav>li>a {
+    padding: 15px 50px;
+}
+
+.navbar-inverse .navbar-nav>li {
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li:hover {
+    background-color: rgb(255,64,101);
+}
+/* --------- end: logo and nav --------- */
+
+/* --------- hero --------- */
+.hero {
+    background:
+    linear-gradient(to bottom right, rgba(0,196,180,0.2), rgba(0,170,223,0.2)),
+    url(../images/dublin-small.jpg);
+    background-size: cover;
+    display: flex;
+    height: 50vh;
+    order: 2;
+    text-align: center;
+    text-shadow: 0 4px 3px rgba(0,0,0,0.4),
+    0 8px 13px rgba(0,0,0,0.1),
+    0 18px 23px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+.hero-text {
+    margin: auto;
+}
+
+h1 {
+    color: rgb(255,255,255);
+    font-size: 4rem;
+}
+
+.secondary-title {
+    color: rgb(255,64,101);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+/* --------- end: hero --------- */
+
+/* --------- gallery --------- */
+.gallery {
+    background-color: rgb(239,240,242);
+    margin: 2rem 0;
+    order: 3;
+    padding: 6rem 1em;
+    width: 100%;
+}
+
+.project-card {
+    background-color: rgb(255,255,255);
+    border: solid rgb(200,200,200) 1px;
+    border-radius: 0.5rem;
+    box-shadow: 5px 10px 18px rgb(200,200,200);
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 1rem;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.project-card p {
+    margin: 1rem;
+}
+
+.card-image {
+    height: 20rem;
+    width: 100%;
+}
+
+.card-img-pic1 {
+    background:
+    radial-gradient(rgba(0,170,223,0.6), rgba(0,170,223,0.5), rgba(0,196,180,0.6)),
+    url(../images/project1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-img-pic2 {
+    background:
+    radial-gradient(rgba(0,170,223,0.6), rgba(0,170,223,0.5), rgba(0,196,180,0.6)),
+    url(../images/project2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-buttons {
+    display: flex;
+    margin: 0 2rem;
+    margin-top:auto;
+    text-align: center;
+}
+
+.card-buttons .btn {
+    border-color: rgb(255,64,101);
+    color: rgb(255,64,101);
+    flex: 1;
+    margin: 2rem 1rem 4rem 1rem;
+    text-transform: uppercase;
+}
+
+.card-buttons .btn:hover {
+    background-color: rgb(255,64,101);
+    color: rgb(255,255,255);
+}
+/* --------- end: gallery --------- */
+
+/* --------- about --------- */
+.about {
+    background: linear-gradient(to bottom right, rgba(0,196,180,0.2), rgba(0,170,223,0.2));
+    order: 4;
+    padding: 6rem 1em;
+    width: 100%;
+}
+
+.about-column {
+    background-color: rgb(255,255,255);
+    border: solid rgb(46,61,73) 1px;
+    border: solid rgba(46,61,73,0.2) 1px;
+    box-shadow: 5px 5px 25px 0 rgba(46,61,73,0.2);
+    margin: 1rem;
+}
+
+.about-column-contents {
+    margin: 6rem 2rem;
+}
+
+.responsive-image {
+    max-width: 100%;
+}
+
+.about-column img {
+    display: block;
+}
+
+.about-icons {
+    display: flex;
+    margin: 1rem;
+    text-align: center;
+}
+
+.about-icons a {
+    color: rgb(255,64,101);
+    flex: 1;
+}
+
+.about-icons a:hover {
+    font-size: 2rem;
+}
+/* --------- end: about --------- */
+
+/* --------- footer --------- */
+footer {
+    background-color: rgb(31,31,31);
+    color: #9d9d9d;
+    margin-top: 2rem;
+    order: 5;
+    text-align: center;
+    width: 100vw;
+}
+/* --------- end: footer --------- */

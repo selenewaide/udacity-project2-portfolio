@@ -1,0 +1,30 @@
+/* --------- hero --------- */
+.hero {
+    height: 100vh;
+}
+/* --------- end: hero --------- */
+
+/* --------- gallery --------- */
+.project-card {
+    width: calc((100% / 3) - 2rem);
+}
+/* --------- end: gallery --------- */
+
+/* --------- about --------- */
+.about-columns-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+}
+
+.about-column {
+    flex: 1;
+    margin: 3rem;
+}
+
+.about-icons {
+    margin: 4rem;
+}
+/* --------- end: about --------- */
