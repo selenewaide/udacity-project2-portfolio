@@ -21,9 +21,9 @@ These instructions will get you a copy of the project up and running on your loc
 ### Install & Run
 
 ###### Step 1
-Clone the project from [Github Movie Trailer Project.](https://github.com/selenewaide/udacity-project1-movie-trailer)
+Clone the project from [Github Portfolio Project.](https://github.com/selenewaide/udacity-project2-portfolio.git)
 ```
-git clone https://github.com/selenewaide/udacity-project1-movie-trailer.git
+git clone https://github.com/selenewaide/udacity-project2-portfolio.git
 ```
 
 ###### Step 2
